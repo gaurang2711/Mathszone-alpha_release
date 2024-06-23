@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3e8e2;
+
+}
+
+nav {
+    background-color: #f3e8e2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: all ease 1s;
+}
+
+a:hover {
+    text-shadow: 1px 1px 1px rgb(99, 94, 94);
+    color: rgb(99, 94, 94);
+    transition: all ease 1s;
+}
+
+header img {
+    width: 15%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: white;
+}
+
+nav img {
+    width: 10%;
+    padding: 12px 10px;
+}
+
+header img {
+    width: 15%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon img {
+    width: 30px;
+    margin-left: 8px;
+    float: right;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all ease .8s;
+}
+
+#fb:hover {
+    font-weight: bolder;
+    border: 1px solid rgb(0, 26, 255);
+    border-radius: 50px;
+}
+
+#ig:hover {
+    font-weight: bolder;
+    border: 1px solid rgb(234, 0, 255);
+    border-radius: 50px;
+}
+
+#li:hover {
+    font-weight: bolder;
+    border: 1px solid rgb(0, 195, 255);
+    border-radius: 50px;
+}
+
+#p_ {
+    margin-left: 10px;
+}
+
+.line {
+    padding: 1px 5px;
+    width: 100%;
+    background-color: rgb(77, 75, 75);
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    padding: 12px 24px;
+    font-size: 23px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+#btn:hover{
+    border-radius: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px 3px #ffaf84;
+}
+
+input{
+    text-decoration: dashed;
+    background: none;
+    border: none;
+    font-size: 24px;
+}
+
+button{
+    background: #f0ccb9;
+    border-radius: 12px;
+    padding: 12px 12px;
+    font-size: 18px;
+    transition: all ease 1s;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+button:hover{
+    background-color: rgb(212, 170, 170);
+    background-color: none;
+    transition: all ease 1s;
+}
+
